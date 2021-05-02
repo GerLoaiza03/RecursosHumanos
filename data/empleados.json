@@ -1,0 +1,58 @@
+[
+
+    {
+        "id":1,
+        "nombreFull":"German Loaiza",
+        "numDocumento":"313418",
+        "email":"ger@ger.com.co",
+        "ciudad":"Bogota",
+        "nombreEmpresa":"Takion",
+        "salario":5000,
+        "porcentajeAumento":10,
+        "image":"../img/empleado1.png"
+    },
+    {
+        "id":2,
+        "nombreFull":"Gaby Pinto",
+        "numDocumento":"6458",
+        "email":"gaby@ger.com.co",
+        "ciudad":"Bogota",
+        "nombreEmpresa":"Takion",
+        "salario":6000,
+        "porcentajeAumento":10,
+        "image":"../img/empleado2.png"
+    },
+    {
+        "id":3,
+        "nombreFull":"Fonso Murcia",
+        "numDocumento":"314372",
+        "email":"fonso@ger.com.co",
+        "ciudad":"Bogota",
+        "nombreEmpresa":"Otro",
+        "salario":4000,
+        "porcentajeAumento":10,
+        "image":"../img/empleado3.png"
+    },
+    {
+        "id":4,
+        "nombreFull":"Angie Londoño",
+        "numDocumento":"314372",
+        "email":"angie@ger.com.co",
+        "ciudad":"Bogota",
+        "nombreEmpresa":"Ponal",
+        "salario":4000,
+        "porcentajeAumento":10,
+        "image":"../img/empleado4.png"
+    },
+    {
+        "id":5,
+        "nombreFull":"Jenny Arciniegas",
+        "numDocumento":"314372",
+        "email":"jenny@ger.com.co",
+        "ciudad":"Bogota",
+        "nombreEmpresa":"Ponal",
+        "salario":4000,
+        "porcentajeAumento":10,
+        "image":"../img/empleado5.png"
+    }
+]

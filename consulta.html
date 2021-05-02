@@ -1,0 +1,149 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Coder Pelis!</title>
+</head>
+<body class="bg bootstrapOverwrites"> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TAKÍON - Contactenos </title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css"> 
+	<link rel="stylesheet" href="css/styles.css"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,800&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>	 -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</head>
+	
+<body>
+    <div class="wrapper">
+
+    <nav class="navbar navbar-expand-xl navbar-dark  d-flex justify-content-between">
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navColapsable">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navColapsable">
+			<div class="d-flex-column d-xl-flex justify-content-between w-100">
+				<div class="navbar-nav">
+					<div id="usernav"></div>
+					<a href="#" id="close" class="nav-item nav-link active">Cerrar Sesión</a>	
+				</div>
+				
+				<ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item active">
+						<a class="nav-link" href="consulta.html" class="link">Consultar Empleado</a>
+						
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="form.html" class="link">Consultar Aumento</a>
+						
+					</li>
+					<div class="justify-content-md-between">
+						<a href="https://twitter.com/GerLoaiza"><i class="fab fa-instagram " id="rrss"></i></a>
+						<a href="https://twitter.com/GerLoaiza"><i class="fab fa-facebook-square " width="30" height="30" id="rrss"></i></a>
+						<a href="https://twitter.com/GerLoaiza"><i class="fab fa-twitter-square" id="rrss"></i></a>
+					</div>
+
+
+
+				</ul>
+			
+			</div>
+		</div>
+
+
+	</nav>
+
+
+<main>
+
+		<div class="row">
+			<img src="img/bannercontactos.jpg" alt="" class="banner_servicios col-md-12 img-fluid">
+			</div>	
+
+        <section class="container ">
+            
+            <h2 class="title2">Simulador JavaScript</h2>
+
+        <div class="container">
+            <div >
+            <!--   <nav class="navbar navbar-light bg-light py-4">
+                    <a class="navbar-brand" href="#">
+                    <img src="./img/coderpelis.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Coder Pelis!
+                    </a>
+                </nav> -->
+                <form class="form-inline col-md-12 buscador py-4" id="formBuscar">
+                    <input class="form-control mr-sm-2 px-2" type="search" placeholder="Buscar por Documento" aria-label="Search" id="buscar">
+                            <select class="form-control px-2" name="" id="nombreEmpresa">
+                                <option value="">Takion</option>
+                                <option value="">Ponal</option>
+                                <option value="">Otro</option>
+                            </select>
+                            <button class="btn btn-outline-primary my-2 my-sm-0 px-2" type="submit">Buscar</button>
+                </form>
+            <div id="empleados" class=""></div>
+            </div>
+        </div>
+
+
+        </section>
+    
+
+</div>
+
+<footer class="footer">
+    <div class="">
+        <section class="row">
+            <div class="col-md-9 foot">
+                © 2021 GerLoaiza 
+                <br>Dirección - Bogota - Colombia
+                <br>(+ 57 1) xxx-xx-xx
+                <br>Cel.:(+ 57) xxx-xxx-xx-xx
+                <br>contacto@gerloaiza.com.co
+            </div>
+            <div class="col-md-3 align-self-end foot">
+                <p class="creador ">Sitio Creado Por	
+                <a href="https://twitter.com/GerLoaiza" class="creador">Germán Loaiza</a>
+                </p>
+            </div>	
+        </section>
+    </div>
+    
+
+
+    <div class="title6">
+        <div class="row">
+            <section class="col-md-12">
+                <h6 class="">TAKÍON - Todos los Derechos Reservados &copy; 2021</h6>
+            </section>	
+        
+        </div>	
+
+    </div>
+
+</footer>
+
+</main>
+
+
+    <script src="js/consulta.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
