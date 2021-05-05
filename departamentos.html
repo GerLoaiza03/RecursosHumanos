@@ -78,7 +78,9 @@
 
 
                 <div id="listass">
-                    <p class="modalParrafo">hola coder</p>
+                    
+
+
                 </div>
 
                 <div class="container">
@@ -190,29 +192,32 @@
                                   <div class="panel-body">
 
 
-                                    <form class="form__modal" id="form">
+                                    <form action="" method="POST" class="form__modal" id="form_eventos">
 
                                         <h1 class="h3 mb-3 font-weight-bold">Registrar Nuevo Departamento</h1>
                                         <div><label for="field-1" class="col-ml-4 control-label">Nombre Departamento</label>
-                                        <input type="text"  class="form-control" id="nombreDpto" placeholder="Ingrese Nombre:"></div>
+                                        <input type="text"  class="form-control" id="input_nombreDpto" placeholder="Ingrese Nombre:"></div>
                                         <label for="field-1" class="col-ml-4 control-label">Codigo Departamento</label>
-                                        <input type="text" class="form-control" id="codigoDpto" placeholder="Ingrese Codigo:">
+                                        <input type="text" class="form-control" id="input_codigoDpto" placeholder="Ingrese Codigo:">
                                         <label for="field-1" class="col-ml-4 control-label">Responsable Departamento</label>
-                                        <input type="text" class="form-control" id="responsableDpto" placeholder="Ingrese Responsable:">
+                                        <input type="text" class="form-control" id="input_responsableDpto" placeholder="Ingrese Responsable:">
                                         <label for="field-1" class="col-ml-4 control-label">Email Departamento</label>
-                                        <input type="text" class="form-control" id="emailDpto" placeholder="Ingrese Email:">
+                                        <input type="text" class="form-control" id="input_emailDpto" placeholder="Ingrese Email:">
                                         <label for="field-1" class="col-ml-4 control-label">Telefono Departamento</label>
-                                        <input type="text" class="form-control" id="telefonoDpto" placeholder="Ingrese Telefono:">
+                                        <input type="text" class="form-control" id="input_telefonoDpto" placeholder="Ingrese Telefono:">
                                         <label for="field-1" class="col-ml-4 control-label">Areas Departamento</label>
-                                        <input type="text" class="form-control" id="areasDpto" placeholder="Ingrese Areas:">
+                                        <input type="text" class="form-control" id="input_areasDpto" placeholder="Ingrese Areas:">
                                         
     
                                        
                       
                                       <div class="form-group">
                                           <div class="col-sm-offset-3 col-sm-5">
-                                              <button type="submit" class="btn btn-info">Enviar</button>
+                                              <button  class="btn " id="btn-info" type="button" value="Agregar">Enviar</button>
                                           </div>
+
+                                          <button class="button_requeri btn" id="btn_inner" type="button" value="Agregar">
+											Generar Resultados 🧮 										</button>
                                       </div>
                                       </form>            </div>
   
@@ -242,6 +247,7 @@
 
     <script src="js/departamentos.js"></script>
     <script src="js/nav.js"></script>
-    <script src="js/main.js"></script>
+    
+    <script src="js/dpto_create.js"></script
 </body>
 </html>

@@ -88,6 +88,13 @@
                 
                 <h2 class="title2">Simulador JavaScript</h2>
 
+
+                <div id="listass">
+                    
+
+
+                </div>
+
                 <div class="container">
                     <div >
                     <!--   <nav class="navbar navbar-light bg-light py-4">
@@ -195,38 +202,38 @@
                                   <div class="panel-body">
 
 
-                                    <form class="form__modal" id="form">
+                                    <form method="POST" class="form__modal" id="form_eventos">
 
                                         <h1 class="h3 mb-3 font-weight-bold">Iniciar Sesión</h1>
                                         <div>
                                             <label for="field-1" class="col-ml-4 control-label">Nombre Empleado</label>
-                                            <input type="text" class="form-control" id="nombreFull"  placeholder="Ingrese Nombre:"></div>
+                                            <input type="text" class="form-control" id="input_nombreFull"  placeholder="Ingrese Nombre:"></div>
                                             <label for="field-1" class="col-ml-4 control-label">Numero Documento</label>
-                                            <input type="text" class="form-control" id="numDocumento" placeholder="Ingrese Documento:">
+                                            <input type="text" class="form-control" id="input_numDocumento" placeholder="Ingrese Documento:">
                                             <label for="field-1" class="col-ml-4 control-label">Fecha Nacimiento</label>
-                                            <input type="text" class="form-control" id="fechNac" placeholder="Ingrese Fecha Nacimiento:">
+                                            <input type="text" class="form-control" id="input_fechNac" placeholder="Ingrese Fecha Nacimiento:">
                                             <label for="field-1" class="col-ml-4 control-label">Genero</label>
-                                            <input type="text" class="form-control" id="genEmpleado" placeholder="Ingrese Genero:">
+                                            <input type="text" class="form-control" id="input_genEmpleado" placeholder="Ingrese Genero:">
                                             <label for="field-1" class="col-ml-4 control-label">Telefono</label>
-                                            <input type="text" class="form-control" id="telEmpleado" placeholder="Ingrese Telefono:">
+                                            <input type="text" class="form-control" id="input_telEmpleado" placeholder="Ingrese Telefono:">
                                             <label for="field-1" class="col-ml-4 control-label">Ciudad</label>
-                                            <input type="text" class="form-control" id="ciudadEmpleado" placeholder="Ingrese Empleado:">
+                                            <input type="text" class="form-control" id="input_ciudadEmpleado" placeholder="Ingrese Empleado:">
                                             <label for="field-1" class="col-ml-4 control-label">Direccion Residencia</label>
-                                            <input type="text" class="form-control" id="dirEmpleado" placeholder="Ingrese Direccion:">
+                                            <input type="text" class="form-control" id="input_dirEmpleado" placeholder="Ingrese Direccion:">
                                             <label for="field-1" class="col-ml-4 control-label">Email</label>
-                                            <input type="text" class="form-control" id="emailEmpleado" placeholder="Ingrese Email:">
+                                            <input type="text" class="form-control" id="input_emailEmpleado" placeholder="Ingrese Email:">
                                             <label for="field-1" class="col-ml-4 control-label">Nacionalidad</label>
-                                            <input type="text" class="form-control" id="nacEmpleado" placeholder="Ingrese Nacionalidad:">
+                                            <input type="text" class="form-control" id="input_nacEmpleado" placeholder="Ingrese Nacionalidad:">
                                             <label for="field-1" class="col-ml-4 control-label">Salario</label>
-                                            <input type="text" class="form-control" id="salEmpleado" placeholder="Ingrese Salario:">
+                                            <input type="text" class="form-control" id="input_salEmpleado" placeholder="Ingrese Salario:">
                                             <label for="field-1" class="col-ml-4 control-label">Foto</label>
-                                            <input type="text" class="form-control" id="fotoEmpleado" placeholder="Ingrese Foto:">
+                                            <input type="text" class="form-control" id="input_fotoEmpleado" placeholder="Ingrese Foto:">
     
                                        
                       
                                       <div class="form-group">
                                           <div class="col-sm-offset-3 col-sm-5">
-                                              <button type="submit" class="btn btn-info">Enviar</button>
+                                            <button  class="btn " id="btn-info" type="button" value="Agregar">Enviar</button>
                                           </div>
                                       </div>
                                       </form>            </div>
@@ -258,6 +265,6 @@
 
     <script src="js/consultac.js"></script>
     <script src="js/nav.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/empleado_create.js"></script>
 </body>
 </html>
