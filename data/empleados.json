@@ -36,22 +36,22 @@
     {
         "id":4,
         "nombreFull":"Angie Londoño",
-        "numDocumento":"314372",
+        "numDocumento":"314463",
         "email":"angie@ger.com.co",
         "ciudad":"Bogota",
         "nombreEmpresa":"Ponal",
-        "salario":4000,
+        "salario":3000,
         "porcentajeAumento":10,
         "image":"../img/empleado4.png"
     },
     {
         "id":5,
         "nombreFull":"Jenny Arciniegas",
-        "numDocumento":"314372",
+        "numDocumento":"3141060",
         "email":"jenny@ger.com.co",
         "ciudad":"Bogota",
         "nombreEmpresa":"Ponal",
-        "salario":4000,
+        "salario":2000,
         "porcentajeAumento":10,
         "image":"../img/empleado5.png"
     }

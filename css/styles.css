@@ -229,7 +229,7 @@ footer {
   background-color: #00091D; }
 
 .formulario_contenedor {
-  margin-top: 30px;
+  margin-top: 130px;
   margin-bottom: 30px;
   background-color: #00091D;
   text-align: center;
@@ -257,6 +257,22 @@ footer {
 
 }
 
+.form__modal{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin:auto;
+  text-align: center;
+}
+
+.form__modal input.form-control{
+  margin: 0px 0px 10px 0px;
+}
+
+.form__modal label.control-label{
+  margin: 0px 0px 0px 0px;
+}
+
 textarea {
   width: 194px;
   height: 180px;
@@ -277,11 +293,11 @@ textarea {
 }
 
 .buscador {
-  top: 100px;
+  top: 50px;
 }
 
-#empleados{
-  padding-top: 100px;
+#empleados, #departamentos{
+  padding-top: 50px;
 }
 
 .consulta{
@@ -341,4 +357,19 @@ textarea {
 .navVertical .nav-link{
   color: #D0D1D5;
 
+}
+
+.btn_modal {
+  margin-bottom: 10px;
+}
+
+.datatable {
+  background-color: #D0D1D5;
+}
+
+
+.modalParrafo{
+ text-align: center;
+ margin-top: 50px;
+ 
 }

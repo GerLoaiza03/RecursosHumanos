@@ -1,0 +1,48 @@
+[
+
+    {
+        "id":10,
+        "nombreDpto":"Jefatura",
+        "codigoDpto":"30001",
+        "responsableDpto":"Germán Loaiza",
+        "emailDpto":"jeafutura@ger.com.co",
+        "telefonoDpto":"55555555",
+        "areasDpto": "Presidencia, Vicepresidencia, Secretaria."
+    },
+    {
+        "id":11,
+        "nombreDpto":"Talento Humano",
+        "codigoDpto":"30002",
+        "responsableDpto":"Fonso Murcia",
+        "emailDpto":"tahum@ger.com.co",
+        "telefonoDpto":"55555556",
+        "areasDpto": "Contratación, Vacaciones, Otros."
+    },
+    {
+        "id":12,
+        "nombreDpto":"Sistemas",
+        "codigoDpto":"30003",
+        "responsableDpto":"Gaby Pinto",
+        "emailDpto":"sistemas@ger.com.co",
+        "telefonoDpto":"55555557",
+        "areasDpto": "Redes, Sistemas Informacion, Soporte."
+    },
+    {
+        "id":13,
+        "nombreDpto":"Financiero",
+        "codigoDpto":"30004",
+        "responsableDpto":"Jenny Arciniegas",
+        "emailDpto":"financiero@ger.com.co",
+        "telefonoDpto":"55555558",
+        "areasDpto": "Contabilidad, Central de Cuentas, Compras."
+    },
+    {
+        "id":14,
+        "nombreDpto":"Logistica",
+        "codigoDpto":"30005",
+        "responsableDpto":"Angie Londoño",
+        "emailDpto":"logistica@ger.com.co",
+        "telefonoDpto":"55555559",
+        "areasDpto": "Almacenaje, Inventario, Transporte."
+    }
+]

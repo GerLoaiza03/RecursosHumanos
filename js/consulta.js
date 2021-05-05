@@ -22,15 +22,15 @@ function agregarEmpleadosADom() {
           <div class="col-3 px-3">
             
           </div>
-          <div class="col-6 consulta">
-          <img class="pic_empleado" width=150 height=150 src="${empleado.image}">
-            <h2>${empleado.nombreFull}</h2>
-            <p>N° Identificación: ${empleado.numDocumento}</p>
-            <p>Email: ${empleado.email}</p>
-            <p>Ciudad: ${empleado.ciudad}</p>
-            <p>Empresa: ${empleado.nombreEmpresa}</p>
-            <p>Salario: ${empleado.salario}</p>
-          </div>
+            <div class="col-6 consulta">
+                <img class="pic_empleado" width=150 height=150 src="${empleado.image}">
+                <h2>${empleado.nombreFull}</h2>
+                <p>N° Identificación: ${empleado.numDocumento}</p>
+                <p>Email: ${empleado.email}</p>
+                <p>Ciudad: ${empleado.ciudad}</p>
+                <p>Empresa: ${empleado.nombreEmpresa}</p>
+                <p>Salario: ${empleado.salario}</p>
+            </div>
         </div>
       </div>
     `);
