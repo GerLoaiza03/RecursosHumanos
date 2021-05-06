@@ -9,7 +9,7 @@
         "nombreEmpresa":"Takion",
         "salario":5000,
         "porcentajeAumento":10,
-        "image":"../img/empleado1.png"
+        "image":"img/empleado1.png"
     },
     {
         "id":2,
@@ -20,7 +20,7 @@
         "nombreEmpresa":"Takion",
         "salario":6000,
         "porcentajeAumento":10,
-        "image":"../img/empleado2.png"
+        "image":"img/empleado2.png"
     },
     {
         "id":3,
@@ -31,7 +31,7 @@
         "nombreEmpresa":"Otro",
         "salario":4000,
         "porcentajeAumento":10,
-        "image":"../img/empleado3.png"
+        "image":"img/empleado3.png"
     },
     {
         "id":4,
@@ -42,7 +42,7 @@
         "nombreEmpresa":"Ponal",
         "salario":3000,
         "porcentajeAumento":10,
-        "image":"../img/empleado4.png"
+        "image":"img/empleado4.png"
     },
     {
         "id":5,
@@ -53,6 +53,6 @@
         "nombreEmpresa":"Ponal",
         "salario":2000,
         "porcentajeAumento":10,
-        "image":"../img/empleado5.png"
+        "image":"img/empleado5.png"
     }
 ]
