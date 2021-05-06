@@ -14,6 +14,6 @@ form.addEventListener('submit',function(event){
     );
     localStorage.setItem('user', JSON.stringify(users));
 
-    location.href='form.html';
+    location.href='menu.html';
 
 });

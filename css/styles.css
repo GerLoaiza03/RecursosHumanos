@@ -60,7 +60,7 @@ h3, h6 {
   padding: 0.5rem 1rem 0.5rem 0rem;
   padding-bottom: 0;
   background: #752a2a;
-  background: linear-gradient(90deg, #752a2a 0%, #00091d 54%);
+  background: linear-gradient(90deg, #00091d 0% , #752a2a 84%);
   font-family: 'Piazzolla', sans-serif;
   font-size: 1.2rem;
   font-weight: bold; }
@@ -68,7 +68,7 @@ h3, h6 {
     padding-top: 0;
     margin-right: 0; }
   .navbar #rrss {
-    margin-top: 5px;
+
     line-height: 30px;
     font-size: 30px;
     margin: auto 2px auto 2px; }
@@ -241,6 +241,7 @@ footer {
 
 #listass{
   color: #CDA448;
+  text-align: center;
 }
 
 
@@ -337,7 +338,7 @@ textarea {
   .navVertical {
     position: fixed;
     z-index: 0;
-    width: 6%;
+    width: 11%;
     height: 100%;
     padding: 0.5rem 1rem 0.5rem 0rem;
     padding-bottom: 0;
@@ -373,3 +374,52 @@ textarea {
  margin-top: 50px;
  
 }
+
+#theImg{
+  width: 200px;
+  height: 200px;
+}
+
+.welcome{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+
+
+
+
+
+/*li{
+  list-style-type:none;
+  position:relative;
+  width:120px;
+  }*/
+              
+  /*li a{
+  text-decoration:none;
+  display:inline-block;
+  width:120px;
+  height:30px;
+ 
+  } */
+          
+  nav li ul{
+      display:none;
+      position:absolute;
+      top:10px;
+      left:120px;
+  }
+          
+  nav li:hover ul{display:block;}
+
+  .justify-content-md-between{
+    margin-top: 9px;
+  }

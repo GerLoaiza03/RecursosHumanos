@@ -15,12 +15,41 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 </head>
 	
 <body>
+
+    <nav class="navbar bg-light navVertical">
+
+        <!-- Links -->
+        <ul class="navbar-nav ">
+
+            <li class="nav-item ">
+                <a class="nav-link" href="menu.html" class="link">Principal</a>
+                
+            </li>   
+
+
+            <li class="nav-item ">
+                <a class="nav-link" href="consultac.html" class="link">Empleados</a>
+                
+            </li>
+       <li class="nav-item active">
+                <a class="nav-link" href="departamentos.html" class="link">Departamentos</a>
+                
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="form.html" class="link">Calcule Salario</a>
+                
+            </li>                
+            </ul>
+      </nav>
+
+
     <div class="wrapper">
 
         <nav class="navbar navbar-expand-xl navbar-dark  d-flex justify-content-between">
@@ -38,11 +67,7 @@
                     <ul class="navbar-nav ml-auto">
                         
                         <li class="nav-item active">
-                            <a class="nav-link" href="consulta.html" class="link">Consultar Empleado</a>
-                            
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="form.html" class="link">Consultar Aumento</a>
+                            <a class="nav-link" href="departamentos.html" class="link">Departamentos</a>
                             
                         </li>
                         
@@ -74,7 +99,7 @@
 
             <section class="container ">
                 
-                <h2 class="title2">Simulador JavaScript</h2>
+                <h2 class="title2">Departamentos</h2>
 
 
                 <div id="listass">
@@ -109,8 +134,8 @@
                         <div id="departamentos" class="">
 
                             <div class="container">
-                                <div><button onclick="ShowModal()" class="btn btn-primary btn-lg float-right btn_modal" data-toggle="modal" data-target="#myModal">
-                                    Abrir modal
+                                <div><button onclick="ShowModal()" class="btn btn-primary float-right btn_modal" data-toggle="modal" data-target="#myModal">
+                                    Ingresar Nuevo Departamento
                                 </button></div>
     
                             </div>
@@ -187,50 +212,35 @@
                                   </button>
                                 </div>
                                 <div class="modal-body">
-  
-  
-                                  <div class="panel-body">
 
+                                        <div class="panel-body">
 
-                                    <form action="" method="POST" class="form__modal" id="form_eventos">
+                                            <form action="" method="POST" class="form__modal" id="form_eventos">
 
-                                        <h1 class="h3 mb-3 font-weight-bold">Registrar Nuevo Departamento</h1>
-                                        <div><label for="field-1" class="col-ml-4 control-label">Nombre Departamento</label>
-                                        <input type="text"  class="form-control" id="input_nombreDpto" placeholder="Ingrese Nombre:"></div>
-                                        <label for="field-1" class="col-ml-4 control-label">Codigo Departamento</label>
-                                        <input type="text" class="form-control" id="input_codigoDpto" placeholder="Ingrese Codigo:">
-                                        <label for="field-1" class="col-ml-4 control-label">Responsable Departamento</label>
-                                        <input type="text" class="form-control" id="input_responsableDpto" placeholder="Ingrese Responsable:">
-                                        <label for="field-1" class="col-ml-4 control-label">Email Departamento</label>
-                                        <input type="text" class="form-control" id="input_emailDpto" placeholder="Ingrese Email:">
-                                        <label for="field-1" class="col-ml-4 control-label">Telefono Departamento</label>
-                                        <input type="text" class="form-control" id="input_telefonoDpto" placeholder="Ingrese Telefono:">
-                                        <label for="field-1" class="col-ml-4 control-label">Areas Departamento</label>
-                                        <input type="text" class="form-control" id="input_areasDpto" placeholder="Ingrese Areas:">
-                                        
+                                                <h1 class="h3 mb-3 font-weight-bold">Registrar Nuevo Departamento</h1>
+                                                <div><label for="field-1" class="col-ml-4 control-label">Nombre Departamento</label>
+                                                <input type="text"  class="form-control" id="input_nombreDpto" placeholder="Ingrese Nombre:"></div>
+                                                <label for="field-1" class="col-ml-4 control-label">Codigo Departamento</label>
+                                                <input type="text" class="form-control" id="input_codigoDpto" placeholder="Ingrese Codigo:">
+                                                <label for="field-1" class="col-ml-4 control-label">Responsable Departamento</label>
+                                                <input type="text" class="form-control" id="input_responsableDpto" placeholder="Ingrese Responsable:">
+                                                <label for="field-1" class="col-ml-4 control-label">Email Departamento</label>
+                                                <input type="text" class="form-control" id="input_emailDpto" placeholder="Ingrese Email:">
+                                                <label for="field-1" class="col-ml-4 control-label">Telefono Departamento</label>
+                                                <input type="text" class="form-control" id="input_telefonoDpto" placeholder="Ingrese Telefono:">
+                                                <label for="field-1" class="col-ml-4 control-label">Areas Departamento</label>
+                                                <input type="text" class="form-control" id="input_areasDpto" placeholder="Ingrese Areas:">
+                                                
+                                            </form>            
+                                        </div>
     
-                                       
-                      
-                                      <div class="form-group">
-                                          <div class="col-sm-offset-3 col-sm-5">
-                                              <button  class="btn " id="btn-info" type="button" value="Agregar">Enviar</button>
-                                          </div>
-
-                                          <button class="button_requeri btn" id="btn_inner" type="button" value="Agregar">
-											Generar Resultados 🧮 										</button>
-                                      </div>
-                                      </form>            </div>
-  
-  
-  
-  
-  
-  
                                   ...
                                 </div>
+                                
+                                
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                  <button type="button" class="btn btn-primary">Aceptar changes</button>
+                                  <button  class="btn btn-primary" id="btn-info" type="button" value="Agregar" data-dismiss="modal">Enviar</button>
                                 </div>
                               </div>
                             </div>

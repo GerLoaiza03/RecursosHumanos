@@ -21,18 +21,71 @@ e.preventDefault();
 
 
 function load() {
-        
-    $("#listass").append(`
-        <p>${"Hola " + document.getElementById("input_nombreDpto").value + " Tu Salario Actual es " + document.getElementById("input_codigoDpto").value}</p>
-        
-    `);
-        
-       $("#listass").append(`
-        <textarea> ${"Señor@ " + document.getElementById("input_nombreDpto").value + ", Tu Aumento en base a los datos ingresados es de " + document.getElementById("input_areasDpto").value} </textarea>
+              
+       $("#departamentoss").append(`
+            <tr>  
+            <td><b>${document.getElementById("input_nombreDpto").value}</b></td>
+            <td>${document.getElementById("input_codigoDpto").value}</td>
+            <td>${document.getElementById("input_areasDpto").value}</td>
+            <td>${document.getElementById("input_responsableDpto").value}</td>
+            <td>${document.getElementById("input_emailDpto").value}</td>
+            <td>
+            <div class="btn-group open">
+                <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                    Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-default pull-right" role="menu">
+
+                    <!-- teacher EDITING LINK -->
+                    <li>
+                        <a href="#Edit">
+                            <i class="entypo-pencil"></i>
+                            Editar                                </a>
+                    </li>
+                    <li>
+                        <a href="#Perfil">
+                            <i class="entypo-user"></i>
+                            Perfil                                </a>
+                    </li>
+                    
+                </ul>
+            </div></td>
+            </tr>
+       
         `);
   }
 
  $('#btn-info').on('click', load);
+
+
+
+ $("#btn_bor").click(function (){
+    $("#listass").hide(2000, function () {
+        $("#listass").remove() (location.reload());
+        
+    });
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

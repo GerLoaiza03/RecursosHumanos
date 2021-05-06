@@ -8,7 +8,7 @@ var dirEmpleado = document.getElementById("input_dirEmpleado").value;
 var emailEmpleado = document.getElementById("input_emailEmpleado").value; 
 var nacEmpleado = document.getElementById("input_nacEmpleado").value; 
 var salEmpleado = document.getElementById("input_salEmpleado").value; 
-var fotoEmpleado = document.getElementById("input_fotoEmpleado").value; 
+var nombreEmpresa = document.getElementById("input_nombreEmpresa").value; 
 
 
 
@@ -26,53 +26,60 @@ e.preventDefault();
     console.log(document.getElementById("input_emailEmpleado").value);
     console.log(document.getElementById("input_nacEmpleado").value);
     console.log(document.getElementById("input_salEmpleado").value);
-    console.log(document.getElementById("input_fotoEmpleado").value);
+    console.log(document.getElementById("input_nombreEmpresa").value);
   
 });
 
 
-function load() {
-        
-    $("#listass").append(`
-        <p>${"Hola " + document.getElementById("input_nombreFull").value + " Tu Salario Actual es " + document.getElementById("input_numDocumento").value}</p>
-        
-    `);
-        
-       $("#listass").append(`
-        <textarea> ${"Señor@ " + document.getElementById("input_fechNac").value + ", Tu Aumento en base a los datos ingresados es de " + document.getElementById("input_genEmpleado").value} </textarea>
-        `);
+function mostrar(){
+    var archivo = document.getElementById("file").files[0];
+    var reader = new FileReader();
+    if (file) {
+      reader.readAsDataURL(archivo );
+      reader.onloadend = function () {
+        document.getElementById("img").src = reader.result;
+      }
+    }
   }
 
- $('#btn-info').on('click', load);
 
 
+function load() {
+              
+    $("#empleadoss").append(`
+         <tr>  
+         <td><b>${document.getElementById("input_nombreFull").value}</b></td>
+         <td>${document.getElementById("input_numDocumento").value}</td>
+         <td>${document.getElementById("input_emailEmpleado").value}</td>
+         <td>${document.getElementById("input_ciudadEmpleado").value}</td>
+         <td>${document.getElementById("input_nombreEmpresa").value}</td>
+         <td>${document.getElementById("input_salEmpleado").value}</td>
+         <td><img id="img">Foto Subida</img></td>
+         <td>
+         <div class="btn-group open">
+             <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                 Action <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu dropdown-default pull-right" role="menu">
 
-
-
-$( "#btn_desple" ).click(function () {
-    if ( $( "#listass" ).first().is( ":hidden" ) ) {
-      $( "#listass" ).slideDown( "slow" );
-    } else {
-      $( "#listass" ).hide("slow");
-    }
+                 <!-- teacher EDITING LINK -->
+                 <li>
+                     <a href="#Edit">
+                         <i class="entypo-pencil"></i>
+                         Editar                                </a>
+                 </li>
+                 <li>
+                     <a href="#Perfil">
+                         <i class="entypo-user"></i>
+                         Perfil                                </a>
+                 </li>
+                 
+             </ul>
+         </div></td>
+         </tr>
     
-    
-});
+     `);
+}
 
+$('#btn-info').on('click', load);
 
-
-$("#btn_bor").click(function (){
-    $("#listass").hide(2000, function () {
-        $("#listass").remove() (location.reload());
-        
-    });
-    
-})
-
-
-$('#scrollup').click(() => {
-        $('html, body').animate({
-            scrollTop: $("body").offset().top
-        }, 2000);
-    });
-    

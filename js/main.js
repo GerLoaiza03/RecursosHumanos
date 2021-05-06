@@ -56,6 +56,7 @@ function load() {
     $("#listass").append(`
         <p>${"Hola " + document.getElementById("input_fullname").value + " Tu Salario Actual es " + document.getElementById("input_salario").value}</p>
         <p>${"Actualmente Trabajas Para " + document.getElementById("input_empresa").value + " En la Ciudad de " + document.getElementById("input_ciudad").value}</p>
+        
     `);
 
    
@@ -69,6 +70,11 @@ function load() {
         
        $("#listass").append(`
         <textarea> ${"Señor@ " + document.getElementById("input_fullname").value + ", Tu Aumento en base a los datos ingresados es de " + aumento} </textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+
         `);
   }
 

@@ -35,27 +35,15 @@ function agregarDptoADom() {
             </button>
               <ul class="dropdown-menu dropdown-default pull-right" role="menu">
 
-                  <!-- teacher EDITING LINK -->
+               
                   <li>
                       <a href="#Edit">
-                          <i class="entypo-pencil"></i>
-                          Editar                                </a>
+                          <i class="entypo-pencil">Proxima Función</i>
+                      </a>
                   </li>
-                  <li>
-                      <a href="#Perfil">
-                          <i class="entypo-user"></i>
-                          Perfil                                </a>
-                  </li>
-                  <li class="divider"></li>
-
-                  <!-- teacher DELETION LINK -->
-                  <li>
-                      <a href="#" onclick="confirm_modal_hard_reload('#id');">
-                          <i class="entypo-trash"></i>
-                          Borrar                                </a>
-                  </li>
+                
               </ul>
-          </div>
+        </div>
       </td>
       </tr>
 

@@ -10,261 +10,281 @@
     <title>Coder Pelis!</title>
 </head>
 <body class="bg bootstrapOverwrites"> -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>TAKÍON - Contactenos </title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/bootstrap.css"> 
-	<link rel="stylesheet" href="css/styles.css"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,800&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>	 -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TAKÍON - Contactenos </title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/styles.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,800&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>	 -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+    </head>
+        
+    <body>
 
+        <nav class="navbar bg-light navVertical">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+            <!-- Links -->
+            <ul class="navbar-nav ">
+    
+                <li class="nav-item ">
+                    <a class="nav-link" href="menu.html" class="link">Principal</a>
+                    
+                </li>   
+    
+    
+                <li class="nav-item ">
+                    <a class="nav-link" href="consultac.html" class="link">Empleados</a>
+                    
+                </li>
+           <li class="nav-item active">
+                    <a class="nav-link" href="departamentos.html" class="link">Departamentos</a>
+                    
+                </li>
+    
+                <li class="nav-item ">
+                    <a class="nav-link" href="form.html" class="link">Calcule Salario</a>
+                    
+                </li>                
+                </ul>
+          </nav>
+    
 
-</head>
-	
-<body>
-    <div class="wrapper">
-
-        <nav class="navbar navbar-expand-xl navbar-dark  d-flex justify-content-between">
+        <div class="wrapper">
+    
+            <nav class="navbar navbar-expand-xl navbar-dark  d-flex justify-content-between">
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navColapsable">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navColapsable">
-                <div class="d-flex-column d-xl-flex justify-content-between w-100">
-                    <div class="navbar-nav">
-                        <div id="usernav"></div>
-                        <a href="#" id="close" class="nav-item nav-link active">Cerrar Sesión</a>	
-                    </div>
-                    
-                    <ul class="navbar-nav ml-auto">
-                        
-                        <li class="nav-item active">
-                            <a class="nav-link" href="consulta.html" class="link">Consultar Empleado</a>
-                            
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="form.html" class="link">Consultar Aumento</a>
-                            
-                        </li>
-                        
-                        <div class="justify-content-md-between">
-                            <a href="https://twitter.com/GerLoaiza"><i class="fab fa-instagram " id="rrss"></i></a>
-                            <a href="https://twitter.com/GerLoaiza"><i class="fab fa-facebook-square " width="30" height="30" id="rrss"></i></a>
-                            <a href="https://twitter.com/GerLoaiza"><i class="fab fa-twitter-square" id="rrss"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navColapsable">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navColapsable">
+                    <div class="d-flex-column d-xl-flex justify-content-between w-100">
+                        <div class="navbar-nav">
+                            <div id="usernav"></div>
+                            <a href="#" id="close" class="nav-item nav-link active">Cerrar Sesión</a>	
                         </div>
-
-
-
-                    </ul>
-                
-                </div>
-            </div>
-
-
-        </nav>
-
-
-<main>
-
-		<div class="row">
-                    <img src="img/bannercontactos.jpg" alt="" class="banner_servicios col-md-12 img-fluid">
-        </div>	
-
-        
-
-
-            <section class="container ">
-                
-                <h2 class="title2">Simulador JavaScript</h2>
-
-
-                <div id="listass">
-                    
-
-
-                </div>
-
-                <div class="container">
-                    <div >
-                    <!--   <nav class="navbar navbar-light bg-light py-4">
-                            <a class="navbar-brand" href="#">
-                            <img src="./img/coderpelis.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                            Coder Pelis!
-                            </a>
-                        </nav> -->
-                        <form class="form-inline col-md-12 buscador py-4" id="formBuscar">
-                            <input class="form-control mr-sm-2 px-2" type="search" placeholder="Buscar por Documento" aria-label="Search" id="buscar">
-                                    <select class="form-control px-2" name="" id="nombreEmpresa">
-                                        <option value="">Takion</option>
-                                        <option value="">Ponal</option>
-                                        <option value="">Otro</option>
-                                    </select>
-                                    <button class="btn btn-outline-primary my-2 my-sm-0 px-2" type="submit">Buscar</button>
-                        </form>
-                        <div id="empleados" class="">
-
-                            <div class="container">
-                                <div><button onclick="ShowModal()" class="btn btn-primary btn-lg float-right btn_modal" data-toggle="modal" data-target="#myModal">
-                                    Abrir modal
-                                </button></div>
-    
+                        
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <li class="nav-item active">
+                                <a class="nav-link" href="consultac.html" class="link">Empleados</a>
+                                
+                            </li>
+                            
+                            <div class="justify-content-md-between">
+                                <a href="https://twitter.com/GerLoaiza"><i class="fab fa-instagram " id="rrss"></i></a>
+                                <a href="https://twitter.com/GerLoaiza"><i class="fab fa-facebook-square " width="30" height="30" id="rrss"></i></a>
+                                <a href="https://twitter.com/GerLoaiza"><i class="fab fa-twitter-square" id="rrss"></i></a>
                             </div>
-
-
-                            <table class="table table-bordered datatable" id="table_export">
-                                    <thead>
-                                        <tr>
-                                            <th><div>Nombre Completo</div></th>
-                                            <th><div>Numero Documento</div></th>
-                                            <th><div>Email</div></th>
-                                            <th><div>Ciudad</div></th>
-                                            <th><div>Empresa</div></th>
-                                            <th><div>Salario</div></th>
-                                            <th><div>imagen</div></th>
-                                            <th><div>opciones</div></th>
-                                        </tr>
-                                    </thead>
-
-                                <tbody id="empleadoss" class="">
+    
+    
+    
+                        </ul>
                     
-                                </tbody>    
-                            </table>
-                        </div>
                     </div>
                 </div>
-
-
-             </section>
     
-
-</div>
-
-<footer class="footer">
-    <div class="">
-        <section class="row">
-            <div class="col-md-9 foot">
-                © 2021 GerLoaiza 
-                <br>Dirección - Bogota - Colombia
-                <br>(+ 57 1) xxx-xx-xx
-                <br>Cel.:(+ 57) xxx-xxx-xx-xx
-                <br>contacto@gerloaiza.com.co
-            </div>
-            <div class="col-md-3 align-self-end foot">
-                <p class="creador ">Sitio Creado Por	
-                <a href="https://twitter.com/GerLoaiza" class="creador">Germán Loaiza</a>
-                </p>
+    
+            </nav>
+    
+    
+    <main>
+    
+            <div class="row">
+                        <img src="img/bannercontactos.jpg" alt="" class="banner_servicios col-md-12 img-fluid">
             </div>	
-        </section>
-    </div>
     
-
-
-    <div class="title6">
-        <div class="row">
-            <section class="col-md-12">
-                <h6 class="">TAKÍON - Todos los Derechos Reservados &copy; 2021</h6>
-            </section>	
+            
+    
+    
+                <section class="container ">
+                    
+                    <h2 class="title2">Simulador JavaScript</h2>
+    
+                    <div class="container">
+                        <div >
+                        <!--   <nav class="navbar navbar-light bg-light py-4">
+                                <a class="navbar-brand" href="#">
+                                <img src="./img/coderpelis.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                                Coder Pelis!
+                                </a>
+                            </nav> -->
+                            <form class="form-inline col-md-12 buscador py-4" id="formBuscar">
+                                <input class="form-control mr-sm-2 px-2" type="search" placeholder="Buscar por Documento" aria-label="Search" id="buscar">
+                                        <select class="form-control px-2" name="" id="nombreEmpresa">
+                                            <option value="">Takion</option>
+                                            <option value="">Ponal</option>
+                                            <option value="">Otro</option>
+                                        </select>
+                                        <button class="btn btn-outline-primary my-2 my-sm-0 px-2" type="submit">Buscar</button>
+                            </form>
+                            <div id="empleados" class="">
+    
+                                <div class="container">
+                                    
+                                    <div><button onclick="ShowModal()" class="btn btn-primary  float-right btn_modal" data-toggle="modal" data-target="#myModal">
+                                        Ingresar Nuevo Empleado
+                                    </button>
+                                    
+                                </div>
         
-        </div>	
-
-    </div>
-
-</footer>
-
-
-             <!-- Modal -->
-                        <!-- <button onclick="ShowModal()" class="btn btn-primary">Mostrar</button>-->
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-mg" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">Titulo</h5>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
                                 </div>
-                                <div class="modal-body">
-  
-  
-                                  <div class="panel-body">
-
-
-                                    <form method="POST" class="form__modal" id="form_eventos">
-
-                                        <h1 class="h3 mb-3 font-weight-bold">Iniciar Sesión</h1>
-                                        <div>
-                                            <label for="field-1" class="col-ml-4 control-label">Nombre Empleado</label>
-                                            <input type="text" class="form-control" id="input_nombreFull"  placeholder="Ingrese Nombre:"></div>
-                                            <label for="field-1" class="col-ml-4 control-label">Numero Documento</label>
-                                            <input type="text" class="form-control" id="input_numDocumento" placeholder="Ingrese Documento:">
-                                            <label for="field-1" class="col-ml-4 control-label">Fecha Nacimiento</label>
-                                            <input type="text" class="form-control" id="input_fechNac" placeholder="Ingrese Fecha Nacimiento:">
-                                            <label for="field-1" class="col-ml-4 control-label">Genero</label>
-                                            <input type="text" class="form-control" id="input_genEmpleado" placeholder="Ingrese Genero:">
-                                            <label for="field-1" class="col-ml-4 control-label">Telefono</label>
-                                            <input type="text" class="form-control" id="input_telEmpleado" placeholder="Ingrese Telefono:">
-                                            <label for="field-1" class="col-ml-4 control-label">Ciudad</label>
-                                            <input type="text" class="form-control" id="input_ciudadEmpleado" placeholder="Ingrese Empleado:">
-                                            <label for="field-1" class="col-ml-4 control-label">Direccion Residencia</label>
-                                            <input type="text" class="form-control" id="input_dirEmpleado" placeholder="Ingrese Direccion:">
-                                            <label for="field-1" class="col-ml-4 control-label">Email</label>
-                                            <input type="text" class="form-control" id="input_emailEmpleado" placeholder="Ingrese Email:">
-                                            <label for="field-1" class="col-ml-4 control-label">Nacionalidad</label>
-                                            <input type="text" class="form-control" id="input_nacEmpleado" placeholder="Ingrese Nacionalidad:">
-                                            <label for="field-1" class="col-ml-4 control-label">Salario</label>
-                                            <input type="text" class="form-control" id="input_salEmpleado" placeholder="Ingrese Salario:">
-                                            <label for="field-1" class="col-ml-4 control-label">Foto</label>
-                                            <input type="text" class="form-control" id="input_fotoEmpleado" placeholder="Ingrese Foto:">
     
-                                       
-                      
-                                      <div class="form-group">
-                                          <div class="col-sm-offset-3 col-sm-5">
-                                            <button  class="btn " id="btn-info" type="button" value="Agregar">Enviar</button>
-                                          </div>
-                                      </div>
-                                      </form>            </div>
-  
-  
-  
-  
-  
-  
-                                  ...
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                  <button type="button" class="btn btn-primary">Aceptar changes</button>
+    
+                                <table class="table table-bordered datatable" id="table_export">
+                                        <thead>
+                                            <tr>
+                                                <th><div>Nombre Completo</div></th>
+                                                <th><div>Numero Documento</div></th>
+                                                <th><div>Email</div></th>
+                                                <th><div>Ciudad</div></th>
+                                                <th><div>Empresa</div></th>
+                                                <th><div>Salario</div></th>
+                                                <th><div>imagen</div></th>
+                                                <th><div>opciones</div></th>
+                                            </tr>
+                                        </thead>
+    
+                                    <tbody id="empleadoss" class="">
+                        
+                                    </tbody>    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                 </section>
+        
+    
+    </div>
+    
+    <footer class="footer">
+        <div class="">
+            <section class="row">
+                <div class="col-md-9 foot">
+                    © 2021 GerLoaiza 
+                    <br>Dirección - Bogota - Colombia
+                    <br>(+ 57 1) xxx-xx-xx
+                    <br>Cel.:(+ 57) xxx-xxx-xx-xx
+                    <br>contacto@gerloaiza.com.co
+                </div>
+                <div class="col-md-3 align-self-end foot">
+                    <p class="creador ">Sitio Creado Por	
+                    <a href="https://twitter.com/GerLoaiza" class="creador">Germán Loaiza</a>
+                    </p>
+                </div>	
+            </section>
+        </div>
+        
+    
+    
+        <div class="title6">
+            <div class="row">
+                <section class="col-md-12">
+                    <h6 class="">TAKÍON - Todos los Derechos Reservados &copy; 2021</h6>
+                </section>	
+            
+            </div>	
+    
+        </div>
+    
+    </footer>
+    
+    
+                 <!-- Modal -->
+                            <!-- <button onclick="ShowModal()" class="btn btn-primary">Mostrar</button>-->
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-mg" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Titulo</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+      
+      
+                                      <div class="panel-body">
+    
+    
+                                        <form method="POST" class="form__modal" id="form_eventos">
+    
+                                            <h1 class="h3 mb-3 font-weight-bold">Iniciar Sesión</h1>
+                                            <div>
+                                                <label for="field-1" class="col-ml-4 control-label">Nombre Empleado</label>
+                                                <input type="text" class="form-control" id="input_nombreFull"  placeholder="Ingrese Nombre:"></div>
+                                                <label for="field-1" class="col-ml-4 control-label">Numero Documento</label>
+                                                <input type="text" class="form-control" id="input_numDocumento" placeholder="Ingrese Documento:">
+                                                <label for="field-1" class="col-ml-4 control-label">Fecha Nacimiento</label>
+                                                <input type="text" class="form-control" id="input_fechNac" placeholder="Ingrese Fecha Nacimiento:">
+                                                <label for="field-1" class="col-ml-4 control-label">Genero</label>
+                                                <input type="text" class="form-control" id="input_genEmpleado" placeholder="Ingrese Genero:">
+                                                <label for="field-1" class="col-ml-4 control-label">Telefono</label>
+                                                <input type="text" class="form-control" id="input_telEmpleado" placeholder="Ingrese Telefono:">
+                                                <label for="field-1" class="col-ml-4 control-label">Ciudad</label>
+                                                <input type="text" class="form-control" id="input_ciudadEmpleado" placeholder="Ingrese Empleado:">
+                                                <label for="field-1" class="col-ml-4 control-label">Direccion Residencia</label>
+                                                <input type="text" class="form-control" id="input_dirEmpleado" placeholder="Ingrese Direccion:">
+                                                <label for="field-1" class="col-ml-4 control-label">Email</label>
+                                                <input type="text" class="form-control" id="input_emailEmpleado" placeholder="Ingrese Email:">
+                                                <label for="field-1" class="col-ml-4 control-label">Nacionalidad</label>
+                                                <input type="text" class="form-control" id="input_nacEmpleado" placeholder="Ingrese Nacionalidad:">
+                                                <label for="field-1" class="col-ml-4 control-label">Salario</label>
+                                                <input type="text" class="form-control" id="input_salEmpleado" placeholder="Ingrese Salario:">
+                                                <label for="field-1" class="col-ml-4 control-label">Nombre Empresa</label>
+                                                <input type="text" class="form-control" id="input_nombreEmpresa" placeholder="Ingrese Nombre Empresa:">
+                                                <label for="field-1" class="col-ml-4 control-label">Suba Su Foto</label>
+                                                <input type="file" id="file" accept="image/*" onchange="mostrar()"/>
+                                                <br>
+                                                <img id="img"/>
+                                           
+                          
+                                         
+                                          </form>            </div>
+      
+      
+      
+      
+      
+      
+                                      ...
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                      <button  class="btn btn-primary" id="btn-info" type="button" value="Agregar" data-dismiss="modal">Enviar</button>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                          
-                          <script>
-                            function ShowModal(){
-                               $('#myModal').modal('show')
-                            }
-                          </script>
-  
-
-</main>
-
-
-    <script src="js/consultac.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/empleado_create.js"></script>
-</body>
-</html>
+                              
+                              <script>
+                                function ShowModal(){
+                                   $('#myModal').modal('show')
+                                }
+                              </script>
+      
+    
+    </main>
+    
+    
+        <script src="js/consultac.js"></script>
+        <script src="js/nav.js"></script>
+        <script src="js/empleado_create.js"></script>
+    </body>
+    </html>

@@ -26,27 +26,39 @@
         <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>	 -->
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+
     </head>
         
     <body>
-
-
 
         <nav class="navbar bg-light navVertical">
 
             <!-- Links -->
             <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-              </li>
-            </ul>
-          
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="menu.html" class="link">Principal</a>
+                    
+                </li> 
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="consultac.html" class="link">Empleados</a>
+                    
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="departamentos.html" class="link">Departamentos</a>
+                    
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="form.html" class="link">Calcule Salario</a>
+                    
+                </li>                
+                </ul>
           </nav>
           
     <div class="wrapper">       
@@ -58,20 +70,20 @@
             <div class="collapse navbar-collapse" id="navColapsable">
                 <div class="d-flex-column d-xl-flex justify-content-between w-100">
                     <div class="navbar-nav">
-                        <div id="usernav"></div>
+                       <div id="usernav"></div>
                         <a href="#" id="close" class="nav-item nav-link active">Cerrar Sesión</a>	
                     </div>
                     
                     <ul class="navbar-nav ml-auto">
                         
-                        <li class="nav-item active">
+                      <!--  <li class="nav-item active">
                             <a class="nav-link" href="consulta.html" class="link">Consultar Empleado</a>
                             
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="form.html" class="link">Consultar Aumento</a>
                             
-                        </li>
+                        </li>-->
                         <div class="justify-content-md-between">
                             <a href="https://twitter.com/GerLoaiza"><i class="fab fa-instagram " id="rrss"></i></a>
                             <a href="https://twitter.com/GerLoaiza"><i class="fab fa-facebook-square " width="30" height="30" id="rrss"></i></a>
@@ -97,30 +109,14 @@
     
         <section class="container ">
             
-            <h2 class="title2">Simulador JavaScript</h2>
+            <h2 class="title2">Sistema de Recursos Humanos</h2>
     
         <div class="container">
             <div >
-             <!--   <nav class="navbar navbar-light bg-light py-4">
-                    <a class="navbar-brand" href="#">
-                    <img src="./img/coderpelis.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Coder Pelis!
-                    </a>
-                </nav> -->
-                <form class="form-inline col-md-12 buscador py-4" id="formBuscar">
-                    <input class="form-control mr-sm-2 px-2" type="search" placeholder="Buscar por Documento" aria-label="Search" id="buscar">
-                            <select class="form-control px-2" name="" id="nombreEmpresa">
-                                <option value="">Takion</option>
-                                <option value="">Ponal</option>
-                                <option value="">Otro</option>
-                            </select>
-                            <button class="btn btn-outline-primary my-2 my-sm-0 px-2" type="submit">Buscar</button>
-                </form>
-            <div id="empleados" class=""></div>
+                <img src="img/welcome.png" class="welcome img-fluid" alt="">
             </div>
-        </div>
     
-    </div>
+        </div>
     </section>
 </main>
 
